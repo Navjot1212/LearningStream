@@ -44,6 +44,7 @@ public class ConsumerPractice {
 				.andThen(car -> System.out.printf("Price after tax $  %.2f \n", car.getPrice() * 1.13));
 		carList.forEach(consumer2);
 		carStream.forEachOrdered(consumer2);
+		
 	}
 
 }

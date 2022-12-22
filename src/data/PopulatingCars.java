@@ -1,5 +1,8 @@
 package data;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class PopulatingCars {
 
 	public static void main(String[] args) {
@@ -11,6 +14,8 @@ public class PopulatingCars {
 		Car GMC = new Car("GMC      ", "Denali     ", "Black  ", 2022, 0, 90000);
 		Car mercedes = new Car("Mercedes ", "AMG-GT     ", "Black  ", 2022, 0, 185000);
 		Car tesla = new Car("Tesla    ", "Model-S    ", "White  ", 2022, 0, 115000);
+
+		List<Car> carList = Arrays.asList(acura, BMW, cadillac, dodge, ford, GMC, mercedes, tesla);
 
 	}
 
